@@ -1,23 +1,51 @@
 h2{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: blue;
+    padding: 20px;
     text-align: center;
-    background-color: black;
-    background-size: 200px;
+    background: black;
+    color:beige;
+    font-size: 30px;
 }
 h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    text-decoration: dotted;
-    text-decoration-color: blue;
-}
-p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: chocolate;
-    border-style: double;
+    font-size: 25pt;
 }
 img{
     border-style: outset;
-    border-width: thick;
+    border-width: 1px;
     border-color: black;
+    width: 200px;
+    height: 200px;
+}
+.link{
+    color: crimson;
+    text-decoration: underline;
+}
+li{
+    font-weight: bold;
+}
+body{
+    background-color: beige;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.text{
+    width: 1500px;
+    margin: 0 auto;
+}
+#main,
+#contact,
+#bio-pic{
+    float: left;
+}
+#main {
+    width: 70%;
+}
+#contact{
+    width: 30%;
+}
+#bio-pic{
+    margin-right: 15px;
+    height: 200px;
+    width: 200px;
 }
